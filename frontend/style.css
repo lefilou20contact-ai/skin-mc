@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.editor-section, .ai-section {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#canvas-container {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+#skin-canvas {
+    border: 1px solid black;
+    cursor: crosshair;
+}
+
+.tools {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#skin-prompt {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#ai-result {
+    margin-top: 15px;
+    min-height: 100px;
+    border: 1px dashed #ccc;
+    padding: 10px;
+}
