@@ -1,0 +1,17 @@
+# Ignorer les dépendances Node.js
+node_modules/
+
+# Ignorer les fichiers de configuration locaux
+.env
+
+# Ignorer les fichiers de cache
+.DS_Store
+*.log
+
+# Ignorer les fichiers générés
+/dist
+/build
+
+# Ignorer les fichiers d'IDE
+.idea/
+.vscode/
